@@ -131,7 +131,7 @@ public:
             }
 
             for(int v = sink; v != source; v = parent[v]){
-                int u=parent[v];
+                int u = parent[v];
                 resMatrix[u][v] -= bnCapacity;
                 resMatrix[v][u] += bnCapacity;
             }

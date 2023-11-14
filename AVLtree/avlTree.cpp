@@ -334,3 +334,7 @@ int main(void){
     outstream.close(); timestream.close();
     return 0;
 }
+
+
+//Adelson-Velsky-Landis
+//g++ -o avl avlTree.cpp

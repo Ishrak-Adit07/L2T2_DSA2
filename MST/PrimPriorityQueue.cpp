@@ -39,7 +39,7 @@ public:
     }//Constructor
 
     void setAdjacent(int u, int v, int weight){
-        //Undirectid..
+        //Undirected..
         vertices[u].setAdjacent(v);    vertices[v].setAdjacent(u);
         weightsofEdges[u][v] = weight; weightsofEdges[v][u] = weight;
     }//function
